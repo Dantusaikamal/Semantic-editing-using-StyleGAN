@@ -17,7 +17,7 @@ There are many aspects in people’s faces that are small and can be seen as sto
 
 StyleGAN generator uses the intermediate vector in each level of the synthesis network, which might cause the network to learn that levels are correlated. To reduce the correlation, the model randomly selects two input vectors and generates the intermediate vector ⱳ for them. It then trains some of the levels with the first and switches (in a random point) to the other to train the rest of the levels. The random switch ensures that the network won’t learn and rely on a correlation between levels.
 
-### References:
+## References:
 
 https://www.analyticsvidhya.com/blog/2021/05/stylegan-explained-in-less-than-five-minutes/
 https://github.com/NVlabs/stylegan
